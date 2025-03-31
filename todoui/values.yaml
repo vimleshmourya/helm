@@ -8,5 +8,5 @@ namespace: default
 host: todoui.example.com
 port: 80
 targetPort: 80
-type: ClusterIP
+type: LoadBalancer
 ingressClassName: nginx
