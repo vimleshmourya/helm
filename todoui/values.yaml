@@ -1,5 +1,5 @@
 name : todoui
-replicas: 2
+replicas: 1
 reponame: vimleshmourya
 image: mycar
 version: v1
