@@ -1,7 +1,7 @@
 name : todoui
 replicas: 1
 reponame: vimleshmourya
-image: mycar
+image: meripyaridulhan
 version: v1
 containerPort: 80
 namespace: default
