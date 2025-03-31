@@ -1,0 +1,12 @@
+name : todoui
+replicas: 2
+reponame: vimleshmourya
+image: mycar
+version: v1
+containerPort: 80
+namespace: default
+host: todoui.example.com
+port: 80
+targetPort: 80
+type: ClusterIP
+ingressClassName: nginx
